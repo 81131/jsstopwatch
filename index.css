@@ -23,8 +23,8 @@ h3 {
 .laparea {
     background-color: #0A0A0A;
     color: aliceblue;
-    width: 50%;
-    height: 40%;
+    width: 70%;
+    height: 60%;
     padding: 10px;
     border: solid #282828 1px;
     border-radius: 5px;
@@ -127,7 +127,9 @@ h3 {
 p{
     display:block;
     text-align:center;
-    margin: auto auto 20px auto;
+    margin-bottom:0;
+    margin-right:auto;
+    margin-left:auto;
     color:white;
 }
 
