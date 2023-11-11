@@ -123,3 +123,7 @@ h3 {
     display: block;
     margin: auto;
 }
+
+p{
+    margin: auto auto 20% auto;
+}
