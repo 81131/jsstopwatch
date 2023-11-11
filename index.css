@@ -125,5 +125,15 @@ h3 {
 }
 
 p{
+    display:block;
+    text-align:center;
     margin: auto auto 20% auto;
 }
+
+@media (max-width: 768px) {
+  .subarea,
+  .secarea {
+    font-size: 80%;
+  }
+}
+
