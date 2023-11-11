@@ -1,0 +1,125 @@
+body {
+    background-color: #282828;
+}
+
+.sitetitle {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 36px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.mainarea,
+.laparea {
+    background-color: #0A0A0A;
+    color: aliceblue;
+    width: 50%;
+    height: 40%;
+    padding: 10px;
+    border: solid #282828 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    flex-direction: column;
+}
+
+.subarea,
+.secarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #181818;
+    width: 20%;
+    height: 80%;
+    border: 1px solid #282828;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 10px;
+}
+
+.secarea {
+    color: aqua;
+    font-size: 70px;
+    margin: auto;
+    background-color: #192734;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 5px;
+    margin: auto;
+    background-color: #22303C;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnwrapper {
+    display: flex;
+}
+
+.subareawrapper {
+    display: flex;
+}
+
+#start {
+    background-color: chartreuse;
+    color: aliceblue;
+    transition: 500ms;
+}
+
+#stop {
+    background-color: rosybrown;
+    color: black;
+    transition: 500ms;
+}
+
+#reset {
+    background-color: antiquewhite;
+    color: #181818;
+    transition: 500ms;
+}
+
+#start:hover {
+    background-color: green;
+    transition: 500ms;
+}
+
+#stop:hover {
+    background-color: red;
+    color: aliceblue;
+    transition: 500ms;
+}
+
+#reset:hover {
+    background-color: gray;
+    color: azure;
+    transition: 500ms;
+}
+
+.mainarea,
+.laparea {
+    display: flex;
+    flex-direction: column;
+}
+
+#laptext {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
